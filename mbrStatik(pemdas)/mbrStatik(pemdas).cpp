@@ -21,10 +21,8 @@ public:
 
 int mahasiswa::nim = 113;
 
-void mahasiswa::printAll()
+void mahasiswa::setID()
 {
-	cout << "ID  = " << id << endl;
-	cout << "Nama = " << nama << endl;
-	cout << endl;
+	id = nim++;
 }
 
