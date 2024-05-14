@@ -19,3 +19,12 @@ public:
 	}
 };
 
+int mahasiswa::nim = 113;
+
+void mahasiswa::printAll()
+{
+	cout << "ID  = " << id << endl;
+	cout << "Nama = " << nama << endl;
+	cout << endl;
+}
+
